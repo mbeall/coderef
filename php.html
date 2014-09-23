@@ -51,7 +51,7 @@
 
     <div class="stripe">
       <div class="container">
-        <span class="pull-right label label-danger" style="margin-top:2em;">empty</span>
+        <span class="pull-right label label-warning" style="margin-top:2em;">incomplete</span>
         <p>PHP</p>
       </div><!-- .container -->
     </div><!-- .stripe -->
@@ -93,7 +93,16 @@
 
               <section id="cmts">
                 <h2 class="page-header">Comments</h2>
-                <div class="alert alert-danger" role="alert">This section is incomplete.</div>
+                <h3>Single-line comments</h3>
+                <pre>
+<span class="text-muted">// This is a single line comment.</span>
+<span class="text-primary">echo</span> <span class="text-success">'foo'</span>; <span class="text-muted">// This comments out the rest of the line.</span></pre>
+
+                <h3>Multi-line comments</h3>
+                <pre>
+<span class="text-muted">/* This comment
+   extends across
+   multiple lines */</span></pre>
               </section>
 
               <section id="vars">
@@ -118,7 +127,21 @@
 
               <section id="if">
                 <h2 class="page-header">Conditions</h2>
-                <div class="alert alert-danger" role="alert">This section is incomplete.</div>
+                <div class="alert alert-warning" role="alert">This section is incomplete.</div>
+                <h3>If, ElseIf, and Else</h3>
+                <pre>
+<span class="text-info">$a</span> = 9;
+<span class="text-info">$b</span> = 4;
+
+<span class="text-primary">if</span> (<span class="text-info">$a</span> + <span class="text-info">$b</span> &lt; 10) {
+  <span class="text-primary">echo</span> <span class="text-success">'Less than 10'</span>;
+}
+<span class="text-primary">elseif</span> (<span class="text-info">$a</span> + <span class="text-info">$b</span> = 10) {
+  <span class="text-primary">echo</span> <span class="text-success">'Equal to 10'</span>;
+}
+<span class="text-primary">else</span> {
+  <span class="text-primary">echo</span> <span class="text-success">'Greater than 10'</span>;
+}</pre>
               </section>
 
               <section id="loops">
