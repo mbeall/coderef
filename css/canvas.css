@@ -1,0 +1,276 @@
+/*
+Theme Name: Canvas
+Theme URI: https://github.com/starverte/canvas
+Author: Star Verte LLC
+Description: Child theme of Flint. Used to display Star Verte LLC company websites.
+Version: 0.0.0
+License: GPLv3
+License URI: LICENSE.md
+Tags:
+Template: flint
+
+    Copyright 2014  Star Verte LLC  (email : dev@starverte.com)
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+@import url(../flint/style.css);
+
+/* =Global
+----------------------------------------------- */
+
+
+/* Alignment */
+
+
+/* =Header
+----------------------------------------------- */
+
+
+/* =Content
+----------------------------------------------- */
+
+
+
+/* =Media
+----------------------------------------------- */
+
+
+
+/* =Navigation
+----------------------------------------------- */
+
+
+/* =Comments
+----------------------------------------------- */
+
+
+/* =Widgets
+----------------------------------------------- */
+
+
+/* =Footer
+----------------------------------------------- */
+
+
+
+/* =Buttons
+----------------------------------------------- */
+
+/* Canvas */
+.btn-canvas {
+  color: #222!important;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+.btn-canvas:hover,
+.btn-canvas:focus,
+.btn-canvas:active,
+.btn-canvas.active,
+.open > .dropdown-toggle.btn-canvas {
+  border-color: #aaa;
+}
+.btn-canvas:active,
+.btn-canvas.active,
+.open > .dropdown-toggle.btn-canvas {
+  background-image: none;
+}
+.btn-canvas .badge {
+  color: #f8f8f8;
+  background-color: #222;
+}
+
+/* Fort Collins Creative */
+.btn-fcc {
+  color: #fff;
+  background-color: #ffa110;
+  border-color: #f69500;
+}
+.btn-fcc:hover,
+.btn-fcc:focus,
+.btn-fcc:active,
+.btn-fcc.active,
+.open > .dropdown-toggle.btn-fcc {
+  color: #fff;
+  background-color: #dc8500;
+  border-color: #b87000;
+}
+.btn-fcc:active,
+.btn-fcc.active,
+.open > .dropdown-toggle.btn-fcc {
+  background-image: none;
+}
+.btn-fcc.disabled,
+.btn-fcc[disabled],
+fieldset[disabled] .btn-fcc,
+.btn-fcc.disabled:hover,
+.btn-fcc[disabled]:hover,
+fieldset[disabled] .btn-fcc:hover,
+.btn-fcc.disabled:focus,
+.btn-fcc[disabled]:focus,
+fieldset[disabled] .btn-fcc:focus,
+.btn-fcc.disabled:active,
+.btn-fcc[disabled]:active,
+fieldset[disabled] .btn-fcc:active,
+.btn-fcc.disabled.active,
+.btn-fcc[disabled].active,
+fieldset[disabled] .btn-fcc.active {
+  background-color: #ffa110;
+  border-color: #f69500;
+}
+.btn-fcc .badge {
+  color: #ffa110;
+  background-color: #fff;
+}
+
+/* Label button */
+.btn-lbl {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .btn-lbl {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+/* Sparks */
+.btn-sparks {
+  color: #fff;
+  background-color: #e13a8b;
+  border-color: #de247e;
+}
+.btn-sparks:hover,
+.btn-sparks:focus,
+.btn-sparks:active,
+.btn-sparks.active,
+.open > .dropdown-toggle.btn-sparks {
+  color: #fff;
+  background-color: #c91f71;
+  border-color: #aa1a60;
+}
+.btn-sparks:active,
+.btn-sparks.active,
+.open > .dropdown-toggle.btn-sparks {
+  background-image: none;
+}
+.btn-sparks.disabled,
+.btn-sparks[disabled],
+fieldset[disabled] .btn-sparks,
+.btn-sparks.disabled:hover,
+.btn-sparks[disabled]:hover,
+fieldset[disabled] .btn-sparks:hover,
+.btn-sparks.disabled:focus,
+.btn-sparks[disabled]:focus,
+fieldset[disabled] .btn-sparks:focus,
+.btn-sparks.disabled:active,
+.btn-sparks[disabled]:active,
+fieldset[disabled] .btn-sparks:active,
+.btn-sparks.disabled.active,
+.btn-sparks[disabled].active,
+fieldset[disabled] .btn-sparks.active {
+  background-color: #e13a8b;
+  border-color: #de247e;
+}
+.btn-sparks .badge {
+  color: #e13a8b;
+  background-color: #fff;
+}
+
+/* Star Verte */
+.btn-sv {
+  color: #fff;
+  background-color: #5fc300;
+  border-color: #53aa00;
+}
+.btn-sv:hover,
+.btn-sv:focus,
+.btn-sv:active,
+.btn-sv.active,
+.open > .dropdown-toggle.btn-sv {
+  color: #fff;
+  background-color: #469000;
+  border-color: #356c00;
+}
+.btn-sv:active,
+.btn-sv.active,
+.open > .dropdown-toggle.btn-sv {
+  background-image: none;
+}
+.btn-sv.disabled,
+.btn-sv[disabled],
+fieldset[disabled] .btn-sv,
+.btn-sv.disabled:hover,
+.btn-sv[disabled]:hover,
+fieldset[disabled] .btn-sv:hover,
+.btn-sv.disabled:focus,
+.btn-sv[disabled]:focus,
+fieldset[disabled] .btn-sv:focus,
+.btn-sv.disabled:active,
+.btn-sv[disabled]:active,
+fieldset[disabled] .btn-sv:active,
+.btn-sv.disabled.active,
+.btn-sv[disabled].active,
+fieldset[disabled] .btn-sv.active {
+  background-color: #5fc300;
+  border-color: #53aa00;
+}
+.btn-sv .badge {
+  color: #5fc300;
+  background-color: #fff;
+}
+
+
+/* =Panels
+----------------------------------------------- */
+
+/* Fort Collins Creative */
+.panel-fcc {
+  border-color: #ffa110;
+}
+.panel-fcc > .panel-heading {
+  color: #fff;
+  background-color: #ffa110;
+  border-color: #ffa110;
+}
+.panel-fcc > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ffa110;
+}
+.panel-fcc > .panel-heading .badge {
+  color: #ffa110;
+  background-color: #fff;
+}
+.panel-fcc > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ffa110;
+}
+
+/* Sparks */
+.panel-sparks {
+  border-color: #e13a8b;
+}
+.panel-sparks > .panel-heading {
+  color: #fff;
+  background-color: #e13a8b;
+  border-color: #e13a8b;
+}
+.panel-sparks > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #e13a8b;
+}
+.panel-sparks > .panel-heading .badge {
+  color: #e13a8b;
+  background-color: #fff;
+}
+.panel-sparks > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #e13a8b;
+}
